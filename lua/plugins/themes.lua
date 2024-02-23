@@ -9,7 +9,7 @@ return {
       local catppuccin = require("catppuccin")
       local kanagawa = require("kanagawa")
       catppuccin.setup({
-        flavour = "mocha",
+        flavour = "frappe",
       })
       kanagawa.setup({
         theme = "dragon"

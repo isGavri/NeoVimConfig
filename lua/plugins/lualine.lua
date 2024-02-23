@@ -5,8 +5,8 @@ return {
     local config = require("lualine")
     config.setup({
       options = {
-       theme = "gruvbox_dark"
-       -- theme = "modus-vivendi"
+       --theme = "gruvbox_dark"
+       theme = "modus-vivendi"
       }
     })
   end
