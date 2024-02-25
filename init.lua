@@ -15,23 +15,9 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim_config")
 require("lazy").setup("plugins")
-
-local sign = function(opts)
-	vim.fn.sign_define(opts.name, {
-		texthl = opts.name,
-		text = opts.text,
-		numhl = "",
-	})
-end
-
---Set up for diagnosis icons
-sign({ name = "DiagnosticSignError", text = "✘" })
-sign({ name = "DiagnosticSignWarn", text = "▲" })
-sign({ name = "DiagnosticSignHint", text = "⚑" })
-sign({ name = "DiagnosticSignInfo", text = "»" })
-
 --Set up themes=
 --vim.cmd.colorscheme("kanagawa")
 --vim.cmd.colorscheme("kanagawa-dragon")
 --vim.cmd.colorscheme("catppuccin")
 vim.cmd.colorscheme("catppuccin-frappe")
+

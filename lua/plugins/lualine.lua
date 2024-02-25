@@ -7,6 +7,14 @@ return {
       options = {
        --theme = "gruvbox_dark"
        theme = "modus-vivendi"
+      },
+      sections = {
+        lualine_a = {'windows'},
+        lualine_b = {'branch', 'diff'},
+        lualine_c = {'filename'},
+        lualine_x = {},
+        lualine_y = {'diagnostics'},
+        lualine_z = {'location'},
       }
     })
   end
