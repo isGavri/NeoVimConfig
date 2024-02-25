@@ -14,7 +14,8 @@ return {
         "rust",
         "javascript",
         "html",
-        "css"
+        "css",
+        "norg",
       },
       highlight = { enable = true },
       indent = { enable = true },
