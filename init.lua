@@ -15,9 +15,8 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim_config")
 require("lazy").setup("plugins")
---Set up themes=
---vim.cmd.colorscheme("kanagawa")
---vim.cmd.colorscheme("kanagawa-dragon")
---vim.cmd.colorscheme("catppuccin")
-vim.cmd.colorscheme("catppuccin-frappe")
-
+--Select colorschemes
+  vim.cmd.colorscheme("kanagawa")
+  --vim.cmd.colorscheme("kanagawa-dragon")
+  --vim.cmd.colorscheme("catppuccin")
+  --vim.cmd.colorscheme("catppuccin-frappe")

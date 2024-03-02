@@ -11,7 +11,7 @@ return {
     local config = require("neo-tree")
     config.setup({
       window = {
-        position = "left",
+        position = "right",
         width = 25,
       },
       filesystem = {
@@ -20,7 +20,7 @@ return {
         }
       }
     })
-    vim.keymap.set('n', '<C-e>', ':Neotree filesystem reveal left<CR>', {})
-    vim.keymap.set('n', '<leader>e', ':Neotree close<CR>', {})
+    vim.keymap.set('n', '<C-e>', '<cmd>Neotree filesystem reveal right<CR>', {})
+    vim.keymap.set('n', '<leader>e', '<cmd>Neotree close<CR>', {})
   end
 }

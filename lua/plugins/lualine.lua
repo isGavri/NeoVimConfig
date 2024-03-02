@@ -9,12 +9,12 @@ return {
         theme = "modus-vivendi",
       },
       sections = {
-        lualine_a = { "windows" },
+        lualine_a = { "tabs" },
         lualine_b = { "branch", "diff" },
         lualine_c = { "filename" },
         lualine_x = { "diagnostics" },
-        lualine_y = { "filetype" },
-        lualine_z = { "progress", "location" },
+        lualine_y = { "filetype", "progress" },
+        lualine_z = { "mode" },
       },
     })
   end,

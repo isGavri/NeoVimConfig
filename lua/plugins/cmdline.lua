@@ -8,6 +8,7 @@ return {
 			cmdline = {
 				enable_keymaps = true,
 				smart_history = true,
+				prompt = ":",
 			},
 			popup = {
 				position = {
@@ -16,7 +17,7 @@ return {
 				},
 				size = {
 					width = "50%",
-          height = "20%"
+					height = "20%",
 				},
 				border = {
 					style = "rounded",
