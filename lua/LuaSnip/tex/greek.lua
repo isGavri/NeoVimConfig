@@ -11,4 +11,19 @@ return {
 	s({ trig = ";g", snippetType = "autosnippet" }, {
 		t("\\gamma"),
 	}),
+	s({ trig = ";t", snippetType = "autosnippet" }, {
+		t("\\theta"),
+	}),
+	s({ trig = ";e", snippetType = "autosnippet" }, {
+		t("\\epsilon"),
+	}),
+	s({ trig = ";o", snippetType = "autosnippet" }, {
+		t("\\omega"),
+	}),
+	s({ trig = ";ra", snippetType = "autosnippet" }, {
+		t("\\rightarrow"),
+	}),
+	s({ trig = ";D", snippetType = "autosnippet" }, {
+		t("\\Delta"),
+	}),
 }

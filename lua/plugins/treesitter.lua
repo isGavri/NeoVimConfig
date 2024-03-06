@@ -23,7 +23,10 @@ return {
           "markdown",
           "markdown_inline",
         },
-        highlight = { enable = true },
+        highlight = {
+          enable = true,
+          disable = { "latex" },
+        },
         indent = { enable = true },
       })
     end,
