@@ -1,4 +1,5 @@
 vim.cmd("set number")
+vim.opt.relativenumber=true
 vim.cmd("set expandtab")
 vim.cmd("set mouse=a")
 vim.cmd("set tabstop=2")

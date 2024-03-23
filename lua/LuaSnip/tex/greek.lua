@@ -1,4 +1,7 @@
 return {
+	s({ trig = ";pi", snippetType = "autosnippet" }, {
+		t("\\pi"),
+	}),
 	--Snippet for alpha
 	s({ trig = ";a", snippetType = "autosnippet" }, {
 		t("\\alpha"),
@@ -19,6 +22,15 @@ return {
 	}),
 	s({ trig = ";o", snippetType = "autosnippet" }, {
 		t("\\omega"),
+	}),
+	s({ trig = ";La", snippetType = "autosnippet" }, {
+		t("\\Leftarrow"),
+	}),
+	s({ trig = ";Ra", snippetType = "autosnippet" }, {
+		t("\\Rightarrow"),
+	}),
+	s({ trig = ";la", snippetType = "autosnippet" }, {
+		t("\\leftarrow"),
 	}),
 	s({ trig = ";ra", snippetType = "autosnippet" }, {
 		t("\\rightarrow"),

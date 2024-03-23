@@ -9,7 +9,7 @@ return {
         theme = "modus-vivendi",
       },
       sections = {
-        lualine_a = { "tabs" },
+        lualine_a = { "location" },
         lualine_b = { "branch", "diff" },
         lualine_c = { "filename" },
         lualine_x = { "diagnostics" },
