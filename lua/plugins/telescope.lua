@@ -4,6 +4,7 @@ return {
     tag = "0.1.5",
     dependencies = {
       "nvim-lua/plenary.nvim",
+      "sharkdp/fd"
     },
     config = function()
       local builtin = require("telescope.builtin")
